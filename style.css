@@ -49,3 +49,23 @@ body {
   height: 300px;
   width: 350px;
 }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  background: #7723b8;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+.footer__links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}

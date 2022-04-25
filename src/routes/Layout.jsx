@@ -5,7 +5,15 @@ export default function Layout() {
   return (
     <>
       <Outlet />
-      <h3>Footer</h3>
+      <div className="footer">
+        <ul className="footer__links">
+          <li>Careers</li>
+          <li>Team</li>
+          <li>Why us</li>
+          <li>Training and development</li>
+          <li>Book a demo</li>
+        </ul>
+      </div>
     </>
   );
 }
