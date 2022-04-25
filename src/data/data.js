@@ -3,14 +3,14 @@ const pets = [
     id: 1,
     name: 'Scooby',
     breed: 'Golden Retriever',
-    age: 2.5,
+    age: 0.2,
     gender: 'Male',
   },
   {
     id: 2,
     name: 'Max',
     breed: 'Husky',
-    age: 0.6,
+    age: 7,
     gender: 'Male',
   },
   {
@@ -31,7 +31,7 @@ const pets = [
     id: 5,
     name: 'Roger',
     breed: 'Terrier',
-    age: 2.5,
+    age: 10,
     gender: 'Male',
   },
   {
@@ -66,5 +66,4 @@ export const editById = (id, update) => {
       pet[prop] = update[prop];
     }
   }
-  console.log(pets);
 };
