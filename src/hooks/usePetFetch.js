@@ -4,10 +4,8 @@ import { useParams } from 'react-router-dom';
 
 export const usePetFetch = () => {
   const { id } = useParams();
-  console.log(id);
 
   const [pet, dispatch] = useReducer((state = {}, action) => {
-    console.log(action);
     switch (action.type) {
       case 'SET':
         return {
