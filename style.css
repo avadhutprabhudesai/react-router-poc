@@ -11,3 +11,41 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.pets-wrapper {
+  display: flex;
+  padding: 0 30px;
+}
+
+.list {
+  flex-basis: 250px;
+  border-right: 1px solid #ccc;
+}
+
+.list ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.info,
+.edit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit .form-control {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.edit label {
+  margin-right: 10px;
+}
+
+.image {
+  height: 300px;
+  width: 350px;
+}

@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className={style.container}>
       <nav className={style.nav}>
-        <Link to="/dogs">Dogs</Link>
+        <Link to="/pets">Pets</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
       </nav>
